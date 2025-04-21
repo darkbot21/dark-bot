@@ -15,17 +15,10 @@ global.__filename = function filename(pathURL = import.meta.url, rmPrefix = plat
 const __dirname = global.__dirname(import.meta.url)
 
 global.owner = [
-['5493873687620', '✨ YartexBot-MD', true],
-['593968263524'],
-['5214434703586'],
-['595976126756'],
-['593968585383'],
-['50492280729'],
-['573012482597']]
+    ['+393519427866', 'Dark Bot', true]  // Nuovo numero proprietario e nome bot
+]
 
-//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +59309090909
+global.botNumberCode = '' //Esempio: +39309090909
 global.confirmCode = ''
 
 global.suittag = ['5214531287294']
@@ -34,19 +27,19 @@ global.prems = []
 
 global.isdev = [['542215034412'], ['593968263524'], ['573012482597'], ['5492215034412'], ['5214434703586'], ['595976126756'], ['573012482597']]
  
-global.packname = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨'
-global.author = 'ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ | ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm2 = '                   ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨\n> *♡º°‘¨ һᥱᥴһ᥆ ⍴᥆r 𝖿ᥲᥒs ⍴ᥲrᥲ 𝖿ᥲᥒs ¨‘°º♡*'
-global.des = 'һᥱᥴһ᥆ ⍴᥆r 𝖿ᥲᥒs ⍴ᥲrᥲ 𝖿ᥲᥒs.'
+global.packname = 'Dark Bot'  // Nuovo nome del bot
+global.author = 'darkolouz'  // Nuovo autore
+global.wm = 'Dark Bot | darkolouz'  // Nuovo watermark
+global.wm2 = '                   Dark Bot ✨\n> *Creato da darkolouz*'
+global.des = 'Dark Bot creato da darkolouz.'
 
 global.vs = 'V2'
 global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
-global.lenguaje = 'Español'
+global.lenguaje = 'Italiano'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'GataNina-Li'
-global.devnum = '+593 96 826 3524'
+global.dev = 'darkolouz'  // Nuovo sviluppatore
+global.devnum = '+393519427866'  // Numero sviluppatore
  
 global.dis = ':⁖֟⊱┈֟፝❥ '
 global.cen1 = '✧──⭒─⊹ '
@@ -128,73 +121,74 @@ global.lolkeysapi = 'GataDiosV3'
 global.itsrose = ['4b146102c4d500809da9d1ff']
 
 global.APIs = {
-amel: 'https://melcanz.com',
-bx: 'https://bx-hunter.herokuapp.com',
-nrtm: 'https://nurutomo.herokuapp.com',
-xteam: 'https://api.xteam.xyz',
-nzcha: 'http://nzcha-apii.herokuapp.com',
-bg: 'http://bochil.ddns.net',
-fdci: 'https://api.fdci.se',
-dzx: 'https://api.dhamzxploit.my.id',
-bsbt: 'https://bsbt-api-rest.herokuapp.com',
-zahir: 'https://zahirr-web.herokuapp.com',
-zeks: 'https://api.zeks.me',
-hardianto: 'https://hardianto-chan.herokuapp.com',
-pencarikode: 'https://pencarikode.xyz',
-LeysCoder: 'https://leyscoders-api.herokuapp.com',
-adiisus: 'https://adiixyzapi.herokuapp.com',
-lol: 'https://api.lolhuman.xyz',
-fgmods: 'https://api-fgmods.ddns.net',
-pencarikode: 'https://pencarikode.xyz',
-Velgrynd: 'https://velgrynd.herokuapp.com',
-rey: 'https://server-api-rey.herokuapp.com',
-hardianto: 'http://hardianto-chan.herokuapp.com',
-shadow: 'https://api.reysekha.xyz',
-apialc: 'https://api-alc.herokuapp.com',
-botstyle: 'https://botstyle-api.herokuapp.com',
-neoxr: 'https://neoxr-api.herokuapp.com',
-ana: 'https://anabotofc.herokuapp.com/',
-kanx: 'https://kannxapi.herokuapp.com/',
-dhnjing: 'https://dhnjing.xyz'
+    amel: 'https://melcanz.com',
+    bx: 'https://bx-hunter.herokuapp.com',
+    nrtm: 'https://nurutomo.herokuapp.com',
+    xteam: 'https://api.xteam.xyz',
+    nzcha: 'http://nzcha-apii.herokuapp.com',
+    bg: 'http://bochil.ddns.net',
+    fdci: 'https://api.fdci.se',
+    dzx: 'https://api.dhamzxploit.my.id',
+    bsbt: 'https://bsbt-api-rest.herokuapp.com',
+    zahir: 'https://zahirr-web.herokuapp.com',
+    zeks: 'https://api.zeks.me',
+    hardianto: 'https://hardianto-chan.herokuapp.com',
+    pencarikode: 'https://pencarikode.xyz',
+    LeysCoder: 'https://leyscoders-api.herokuapp.com',
+    adiisus: 'https://adiixyzapi.herokuapp.com',
+    lol: 'https://api.lolhuman.xyz',
+    fgmods: 'https://api-fgmods.ddns.net',
+    pencarikode: 'https://pencarikode.xyz',
+    Velgrynd: 'https://velgrynd.herokuapp.com',
+    rey: 'https://server-api-rey.herokuapp.com',
+    hardianto: 'http://hardianto-chan.herokuapp.com',
+    shadow: 'https://api.reysekha.xyz',
+    apialc: 'https://api-alc.herokuapp.com',
+    botstyle: 'https://botstyle-api.herokuapp.com',
+    neoxr: 'https://neoxr-api.herokuapp.com',
+    ana: 'https://anabotofc.herokuapp.com/',
+    kanx: 'https://kannxapi.herokuapp.com/',
+    dhnjing: 'https://dhnjing.xyz'
 },
 
 global.APIKeys = {
-'https://api-alc.herokuapp.com': 'ConfuMods',
-'https://api.reysekha.xyz': 'apirey',
-'https://melcanz.com': 'F3bOrWzY',
-'https://bx-hunter.herokuapp.com': 'Ikyy69',
-'https://api.xteam.xyz': '5bd33b276d41d6b4',
-'https://zahirr-web.herokuapp.com': 'zahirgans',
-'https://bsbt-api-rest.herokuapp.com': 'benniismael',
-'https://api.zeks.me': 'apivinz',
-'https://hardianto-chan.herokuapp.com': 'hardianto',
-'https://pencarikode.xyz': 'pais',
-'https://api-fgmods.ddns.net': 'fg-dylux',
-'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
-'https://server-api-rey.herokuapp.com': 'apirey',
-'https://api.lolhuman.xyz': 'GataDiosV2',
-'https://botstyle-api.herokuapp.com': 'Eyar749L',
-'https://neoxr-api.herokuapp.com': 'yntkts',
-'https://anabotofc.herokuapp.com/': 'AnaBot'
+    'https://api-alc.herokuapp.com': 'ConfuMods',
+    'https://api.reysekha.xyz': 'apirey',
+    'https://melcanz.com': 'F3bOrWzY',
+    'https://bx-hunter.herokuapp.com': 'Ikyy69',
+    'https://api.xteam.xyz': '5bd33b276d41d6b4',
+    'https://zahirr-web.herokuapp.com': 'zahirgans',
+    'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+    'https://api.zeks.me': 'apivinz',
+    'https://hardianto-chan.herokuapp.com': 'hardianto',
+    'https://pencarikode.xyz': 'pais',
+    'https://api-fgmods.ddns.net': 'fg-dylux',
+    'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
+    'https://server-api-rey.herokuapp.com': 'apirey',
+    'https://api.lolhuman.xyz': 'GataDiosV2',
+    'https://botstyle-api.herokuapp.com': 'Eyar749L',
+    'https://neoxr-api.herokuapp.com': 'yntkts',
+    'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
 
 global.multiplier = 200 // Cuanto más alto, más difícil subir de nivel
 
 global.rpg = {
-emoticon(string) {
-string = string.toLowerCase()
-let emot = {
-level: '🏆', limit: '💎', exp: '✨',
-health: '❤️',
-money: '💵',
-potion: '🥤',
-pickaxe: '⛏️' 
-}
+    emoticon(string) {
+        string = string.toLowerCase()
+        let emot = {
+            level: '🏆', limit: '💎', exp: '✨',
+            health: '❤️',
+            money: '💵',
+            potion: '🥤',
+            pickaxe: '⛏️' 
+        }
 
-let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
-if (!results.length) return ''
-else return emot[results[0][0]]
-}}
+        let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+        if (!results.length) return ''
+        else return emot[results[0][0]]
+    }
+}
 
 global.d = new Date(new Date + 3600000)
 global.locale = 'es'
@@ -214,19 +208,15 @@ import(`${file}?update=${Date.now()}`)
 })
 
 global.ch = {
-ch1: '120363336642332098@newsletter',
-ch2: '120363160031023229@newsletter',
-ch3: '120363169294281316@newsletter',
-ch4: '120363203805910750@newsletter',
-ch5: '120363302472386010@newsletter',
-ch6: '120363301598733462@newsletter',
-ch7: '120363190430436554@newsletter',
-ch8: '120363374372683775@newsletter', 
-ch9: '120363167110224268@newsletter',
-ch10: '120363323882134704@newsletter',
-ch11: '120363370415738881@newsletter',
-ch12: '120363385983031660@newsletter',
-ch13: '120363343811229130@newsletter',
-ch14: '120363305941657414@newsletter',
-ch15: '120363263466636910@newsletter',
+    ch1: '120363336642332098@newsletter',
+    ch2: '120363160031023229@newsletter',
+    ch3: '120363169294281316@newsletter',
+    ch4: '120363203805910750@newsletter',
+    ch5: '120363302472386010@newsletter',
+    ch6: '120363301598733462@newsletter',
+    ch7: '120363190430436554@newsletter',
+    ch8: '120363374372683775@newsletter', 
+    ch9: '120363167110224268@newsletter',
+    ch10: '120363323882134704@newsletter',
+    ch11: '120363370415738881@newsletter',
 }
